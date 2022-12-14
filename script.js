@@ -21,7 +21,7 @@ let card = `
         <span>${el.rate}/10</span>
         <span>ID: ${el.id}</span>
         <p>${el.description}</p>
-        <a href="cat.html?${el.id}">подробнее</a>
+        <a href="/cats/cat.html?${el.id}">подробнее</a>
         <br>
     </div>`;
 box.innerHTML += card;
