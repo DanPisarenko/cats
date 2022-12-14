@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Добавить</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="/" class="hdr_txt"><h1>Daniel's Cats</h1></a>
+        <a href="add.html">добавить кота</a>
+    </div>
+    <div class="hh">
+    <form id="addCat">
+        <span>добавить</span>
+        <br>
+        <input type="text" placeholder="Имя Кошки" name="name">
+        <br>
+        <input type="number" placeholder="id" name="id" required="required" min="1">
+        <br>
+        <input type="url" placeholder="image link" name="img_link">
+        <br>
+        <input type="text" placeholder="описание" name="description">
+        <br>
+        <input type="number" placeholder="рейтинг" name="rate" max="10" min="1">
+        <br>
+        <input type="number" placeholder="возраст кота" name="age" min="1">
+        <br>
+        <button type="submit">Добавить Кота</button>
+    </form>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
